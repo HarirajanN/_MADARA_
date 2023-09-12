@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ந">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Madara</title>
+    <link rel="stylesheet" href="./Bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+   <div class="nav">
+    <div class="container-fluid" id="nav">
+        <div class="start">
+            <img src="./image/MADARA UCHIHA.jpg" style="width:40px; height:40px;">
+            <h3 class="ms-2"><a href="land.html" class="logo">Madara</a></h3>
+        </div>
+        <div class="end">
+         <ul class="nav">
+            <li class="nav-item"><a href="" class="nav-link" title="Tutorials">கற்க</a></li>
+            <li class="nav-item"><a href="" class="nav-link" title="Practice">பயிற்சி</a></li>
+            <li class="nav-item"><a href="" class="nav-link" title="About">அறிய</a></li>
+           
+        </ul>
+        </div>
+        <ion-icon name="menu-sharp" id="menu-icon" data-bs-toggle="collapse" data-bs-target="#menu"></ion-icon>
+        
+    </div>
+    <ul class="list-unstyled collapse  menu-list" id="menu"  >
+      
+        <li class="nav-item"><a href="learn.html" class="nav-link" title="Tutorials">கற்க</a></li>
+        <li class="nav-item"><a href="" class="nav-link" title="Practice">பயிற்சி</a></li>
+        <li class="nav-item"><a href="" class="nav-link" title="About">அறிய</a></li>
+      
+        
+    </ul>
+
+   </div>
+   <div class="text-center" style="background-color:whitesmoke;">
+    <a href="html.html" class=" h6" style="background-color:whitesmoke; text-decoration: none; color: black; width: 100%;" > back </a>
+
+   </div>
+     <div class="test">
+        <div class="q-1 m-2" onload="answer()">
+            <h6 style="display: flex; justify-content:space-between">Praatice-1<samll>Q-1</samll></h6>
+            <p>What does HTML stand for?</p>
+            <ul class="list-group">
+                <li class="list-group-item reset " id="ans1" onclick="answer()">Hyper link and Markup Language</li>
+                <li class="list-group-item reset  " id="ans2" onclick="answer()">Hyper text Markup Language</li>
+                <li class="list-group-item reset " id="ans3" onclick="answer()">Home Tool Markup Language</li>
+            </ul>
+            <span class="next-btn">
+                <button class="btn btn-primary">Next></button><button class="btn btn-success" onclick="reset()">Reset</button>
+
+            </span>
+        </div>
+      
+     </div>
+    
+      
+
+
+    <script src="./Bootstrap/jquery.min.js"></script>
+    <script src="./Bootstrap/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
